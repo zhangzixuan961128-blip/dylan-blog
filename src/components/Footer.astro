@@ -1,0 +1,51 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const today = new Date();
+---
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="https://x.com/DylanZhangzx" target="_blank" rel="noopener">@DylanZhangzx</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/zhangzixuan961128-blip" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-copy">{t('footer.copy').replace('{year}', String(today.getFullYear()))}</p>
+  </div>
+</footer>
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    background: var(--bg);
+    margin-top: 4rem;
+  }
+  .footer-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  .footer-links {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+  .footer-links a {
+    color: var(--gray-500);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+  .sep {
+    color: var(--gray-300);
+    margin: 0 0.5rem;
+  }
+  .footer-copy {
+    font-size: 0.8rem;
+    color: var(--gray-400);
+  }
+</style>
