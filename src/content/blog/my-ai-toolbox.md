@@ -55,6 +55,19 @@ Dify是国内最大的AI Agent搭建平台，可视化编排，适合快速搭�
 
 **真实感受：** 插件生态比Dify丰富，特别是在中文场景下。但整体稳定性还有提升空间。
 
+### 5. DKnownAI Guard — AI Agent 安全防护
+
+这是我所在公司（彩智科技）自研的 AI Agent Security 产品，专注于为 AI Agent 提供安全防护能力。
+
+**核心能力：**
+- 检测 Prompt 注入、越狱攻击、系统提示词提取
+- 四级风险分类（Unsafe / ConditionallySafe / Focus / Safe）
+- 支持多语言内容检测，中英文表现都很好
+
+**为什么提它：** 作为产品经理，我参与了从产品定位到官网搭建的全过程。我们的定位是对标 [Lakera Guard](https://lakera.com)，但支持多语言是我们的差异化优势。如果你在做 AI Agent 相关的产品，安全防护是绕不过去的一环。
+
+产品官网：[dknownai.com](https://www.dknownai.com)
+
 ## 工具之间的协作
 
 这些工具不是孤立使用的，我的实际工作流经常把它们串起来：
