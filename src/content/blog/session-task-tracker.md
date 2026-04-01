@@ -1,7 +1,8 @@
 ---
-title: "Session Task Tracker: How I Solved Cross-Session Memory Loss in AI Agents"
-date: 2026-04-01
-tags: [openclaw, ai-agent, skill, clawhub]
+title: 'Session Task Tracker: How I Solved Cross-Session Memory Loss in AI Agents'
+description: 'How I built a file-based task memory system for AI agents that survives session resets, compaction, and channel switching.'
+lang: 'en'
+pubDate: 2026-04-01
 ---
 
 # Session Task Tracker: How I Solved Cross-Session Memory Loss in AI Agents
